@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0FAE028206C055600814315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAE027206C055600814315 /* AppDelegate.swift */; };
+		C0FAE02A206C055600814315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAE029206C055600814315 /* ViewController.swift */; };
+		C0FAE02D206C055600814315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FAE02B206C055600814315 /* Main.storyboard */; };
+		C0FAE02F206C055600814315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FAE02E206C055600814315 /* Assets.xcassets */; };
+		C0FAE032206C055600814315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FAE030206C055600814315 /* LaunchScreen.storyboard */; };
+		C0FAE03D206C055600814315 /* EADateViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAE03C206C055600814315 /* EADateViewTests.swift */; };
+		C0FAE048206C055700814315 /* EADateViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAE047206C055700814315 /* EADateViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0FAE039206C055600814315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0FAE01C206C055600814315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0FAE023206C055600814315;
+			remoteInfo = EADateView;
+		};
+		C0FAE044206C055700814315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0FAE01C206C055600814315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0FAE023206C055600814315;
+			remoteInfo = EADateView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0FAE024206C055600814315 /* EADateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EADateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FAE027206C055600814315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0FAE029206C055600814315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0FAE02C206C055600814315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0FAE02E206C055600814315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0FAE031206C055600814315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0FAE033206C055600814315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FAE038206C055600814315 /* EADateViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EADateViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FAE03C206C055600814315 /* EADateViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EADateViewTests.swift; sourceTree = "<group>"; };
+		C0FAE03E206C055600814315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FAE043206C055700814315 /* EADateViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EADateViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FAE047206C055700814315 /* EADateViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EADateViewUITests.swift; sourceTree = "<group>"; };
+		C0FAE049206C055700814315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0FAE021206C055600814315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FAE035206C055600814315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FAE040206C055700814315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0FAE01B206C055600814315 = {
+			isa = PBXGroup;
+			children = (
+				C0FAE026206C055600814315 /* EADateView */,
+				C0FAE03B206C055600814315 /* EADateViewTests */,
+				C0FAE046206C055700814315 /* EADateViewUITests */,
+				C0FAE025206C055600814315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0FAE025206C055600814315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0FAE024206C055600814315 /* EADateView.app */,
+				C0FAE038206C055600814315 /* EADateViewTests.xctest */,
+				C0FAE043206C055700814315 /* EADateViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0FAE026206C055600814315 /* EADateView */ = {
+			isa = PBXGroup;
+			children = (
+				C0FAE027206C055600814315 /* AppDelegate.swift */,
+				C0FAE029206C055600814315 /* ViewController.swift */,
+				C0FAE02B206C055600814315 /* Main.storyboard */,
+				C0FAE02E206C055600814315 /* Assets.xcassets */,
+				C0FAE030206C055600814315 /* LaunchScreen.storyboard */,
+				C0FAE033206C055600814315 /* Info.plist */,
+			);
+			path = EADateView;
+			sourceTree = "<group>";
+		};
+		C0FAE03B206C055600814315 /* EADateViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0FAE03C206C055600814315 /* EADateViewTests.swift */,
+				C0FAE03E206C055600814315 /* Info.plist */,
+			);
+			path = EADateViewTests;
+			sourceTree = "<group>";
+		};
+		C0FAE046206C055700814315 /* EADateViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0FAE047206C055700814315 /* EADateViewUITests.swift */,
+				C0FAE049206C055700814315 /* Info.plist */,
+			);
+			path = EADateViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0FAE023206C055600814315 /* EADateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FAE04C206C055700814315 /* Build configuration list for PBXNativeTarget "EADateView" */;
+			buildPhases = (
+				C0FAE020206C055600814315 /* Sources */,
+				C0FAE021206C055600814315 /* Frameworks */,
+				C0FAE022206C055600814315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EADateView;
+			productName = EADateView;
+			productReference = C0FAE024206C055600814315 /* EADateView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0FAE037206C055600814315 /* EADateViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FAE04F206C055700814315 /* Build configuration list for PBXNativeTarget "EADateViewTests" */;
+			buildPhases = (
+				C0FAE034206C055600814315 /* Sources */,
+				C0FAE035206C055600814315 /* Frameworks */,
+				C0FAE036206C055600814315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0FAE03A206C055600814315 /* PBXTargetDependency */,
+			);
+			name = EADateViewTests;
+			productName = EADateViewTests;
+			productReference = C0FAE038206C055600814315 /* EADateViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0FAE042206C055700814315 /* EADateViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FAE052206C055700814315 /* Build configuration list for PBXNativeTarget "EADateViewUITests" */;
+			buildPhases = (
+				C0FAE03F206C055700814315 /* Sources */,
+				C0FAE040206C055700814315 /* Frameworks */,
+				C0FAE041206C055700814315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0FAE045206C055700814315 /* PBXTargetDependency */,
+			);
+			name = EADateViewUITests;
+			productName = EADateViewUITests;
+			productReference = C0FAE043206C055700814315 /* EADateViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0FAE01C206C055600814315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ehud Adler";
+				TargetAttributes = {
+					C0FAE023206C055600814315 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C0FAE037206C055600814315 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0FAE023206C055600814315;
+					};
+					C0FAE042206C055700814315 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0FAE023206C055600814315;
+					};
+				};
+			};
+			buildConfigurationList = C0FAE01F206C055600814315 /* Build configuration list for PBXProject "EADateView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0FAE01B206C055600814315;
+			productRefGroup = C0FAE025206C055600814315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0FAE023206C055600814315 /* EADateView */,
+				C0FAE037206C055600814315 /* EADateViewTests */,
+				C0FAE042206C055700814315 /* EADateViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0FAE022206C055600814315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FAE032206C055600814315 /* LaunchScreen.storyboard in Resources */,
+				C0FAE02F206C055600814315 /* Assets.xcassets in Resources */,
+				C0FAE02D206C055600814315 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FAE036206C055600814315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FAE041206C055700814315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0FAE020206C055600814315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FAE02A206C055600814315 /* ViewController.swift in Sources */,
+				C0FAE028206C055600814315 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FAE034206C055600814315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FAE03D206C055600814315 /* EADateViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FAE03F206C055700814315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FAE048206C055700814315 /* EADateViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0FAE03A206C055600814315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0FAE023206C055600814315 /* EADateView */;
+			targetProxy = C0FAE039206C055600814315 /* PBXContainerItemProxy */;
+		};
+		C0FAE045206C055700814315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0FAE023206C055600814315 /* EADateView */;
+			targetProxy = C0FAE044206C055700814315 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0FAE02B206C055600814315 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FAE02C206C055600814315 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0FAE030206C055600814315 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FAE031206C055600814315 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0FAE04A206C055700814315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0FAE04B206C055700814315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0FAE04D206C055700814315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T736HH745;
+				INFOPLIST_FILE = EADateView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.EADateView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0FAE04E206C055700814315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T736HH745;
+				INFOPLIST_FILE = EADateView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.EADateView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0FAE050206C055700814315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T736HH745;
+				INFOPLIST_FILE = EADateViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.EADateViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EADateView.app/EADateView";
+			};
+			name = Debug;
+		};
+		C0FAE051206C055700814315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T736HH745;
+				INFOPLIST_FILE = EADateViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.EADateViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EADateView.app/EADateView";
+			};
+			name = Release;
+		};
+		C0FAE053206C055700814315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T736HH745;
+				INFOPLIST_FILE = EADateViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.EADateViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EADateView;
+			};
+			name = Debug;
+		};
+		C0FAE054206C055700814315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T736HH745;
+				INFOPLIST_FILE = EADateViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ehudadler.EADateViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EADateView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0FAE01F206C055600814315 /* Build configuration list for PBXProject "EADateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FAE04A206C055700814315 /* Debug */,
+				C0FAE04B206C055700814315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FAE04C206C055700814315 /* Build configuration list for PBXNativeTarget "EADateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FAE04D206C055700814315 /* Debug */,
+				C0FAE04E206C055700814315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FAE04F206C055700814315 /* Build configuration list for PBXNativeTarget "EADateViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FAE050206C055700814315 /* Debug */,
+				C0FAE051206C055700814315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FAE052206C055700814315 /* Build configuration list for PBXNativeTarget "EADateViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FAE053206C055700814315 /* Debug */,
+				C0FAE054206C055700814315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0FAE01C206C055600814315 /* Project object */;
+}
