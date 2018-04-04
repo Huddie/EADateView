@@ -14,6 +14,8 @@
 		C0FAE032206C055600814315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FAE030206C055600814315 /* LaunchScreen.storyboard */; };
 		C0FAE03D206C055600814315 /* EADateViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAE03C206C055600814315 /* EADateViewTests.swift */; };
 		C0FAE048206C055700814315 /* EADateViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAE047206C055700814315 /* EADateViewUITests.swift */; };
+		C0FAE056206C056800814315 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAE055206C056800814315 /* DateView.swift */; };
+		C0FAE058206C05A300814315 /* InfiniteScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAE057206C05A200814315 /* InfiniteScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C0FAE043206C055700814315 /* EADateViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EADateViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FAE047206C055700814315 /* EADateViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EADateViewUITests.swift; sourceTree = "<group>"; };
 		C0FAE049206C055700814315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FAE055206C056800814315 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		C0FAE057206C05A200814315 /* InfiniteScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				C0FAE027206C055600814315 /* AppDelegate.swift */,
 				C0FAE029206C055600814315 /* ViewController.swift */,
+				C0FAE055206C056800814315 /* DateView.swift */,
+				C0FAE057206C05A200814315 /* InfiniteScrollView.swift */,
 				C0FAE02B206C055600814315 /* Main.storyboard */,
 				C0FAE02E206C055600814315 /* Assets.xcassets */,
 				C0FAE030206C055600814315 /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0FAE056206C056800814315 /* DateView.swift in Sources */,
 				C0FAE02A206C055600814315 /* ViewController.swift in Sources */,
 				C0FAE028206C055600814315 /* AppDelegate.swift in Sources */,
+				C0FAE058206C05A300814315 /* InfiniteScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
